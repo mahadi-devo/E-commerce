@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="p-5 text-center">Products</h1>
+      <h1 className="p-5 text-center">Store Products</h1>
       <div className="d-flex flex-wrap justify-content-evenly">
         {
           products.map(product => (
