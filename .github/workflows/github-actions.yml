@@ -9,8 +9,8 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: cluster-1    
   GKE_ZONE: us-central1-c  
-  DEPLOYMENT_NAME: e-commerce-login	 
-  IMAGE: e-commerce-login
+  DEPLOYMENT_NAME: e-commerce-products	 
+  IMAGE: e-commerce-products
 
 jobs:
   setup-build-publish-deploy:
